@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.urun-area{
+    display: flex;
+    margin: 0px 500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    
+}
+
+.urun-area img{
+    width: 400px;
+    height: 350px;
+    object-fit: contain;
+}
+.urun-area .urun-baslik{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+.urun-area .urun-tur{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.urun-area .urun-ozellik{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.urun-area .urun-ozellik li{
+    margin-bottom: 20px;
+}
+
+.bilgi{
+    background-color: #e6f9ff;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px;
+    overflow: hidden;
+    color: black;
+}
+.bilgi .bilgi-baslik{
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.bilgi .bilgi-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.bilgi .bilgi-numara{
+    margin-left: 100px;
+    color: #00a1cd;
+}
+.bilgi-button{
+    float: right;
+    text-align: center;
+    margin-right: 200px;
+    background-color: #00a1cd; 
+    padding: 15px 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+}
+.bilgi i{
+    font-size: 20px;
+    margin-left: 7px;
+}
+@media (min-width: 321px) and (max-width: 767px) {
+    
+    .urun-area{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .urun-area img{
+        margin-top: 50px;
+        width: 90%;
+        object-fit: contain;
+    }
+    .urun-area .urun-baslik{
+        font-size: 30px;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+    }
+    .urun-area .urun-tur{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    
+    .urun-area .urun-ozellik{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    
+    .urun-area .urun-ozellik li{
+        margin-bottom: 20px;
+    }
+
+}

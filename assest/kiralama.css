@@ -1,0 +1,175 @@
+html,
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+
+    margin: 0;
+    padding: 0;
+}
+.kiralama{
+    display: flex;  
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.kiralama img{
+    width: 50%;
+    height: auto;
+}
+.kiralamabaslik{
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #222;
+}
+.text-areakiralama{
+    width: 50%;
+    margin-left: 3%;
+}
+.text-areakiralama ul{
+    list-style: none;
+}
+.text-areakiralama li{
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.indexarea{
+    margin: auto 0;
+    margin-left: 300px;
+    margin-right: 700px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.indexareakiralama{
+    margin-top: 50px;
+    
+}
+.indexareakiralama .baslik{
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #222;
+    
+}
+.indexareakiralama .baslik2{
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #222;
+
+}
+.indexareakiralama .baslik3{
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222;
+}
+.indexareakiralama .kiralama-aciklama p:first-of-type {
+    margin-bottom: 20px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.kiralama-aciklama{
+    margin-bottom: 35px;
+}
+
+
+.indexareakiralama p{
+    font-size: 18px;
+
+}
+.indexareakiralama ul{
+    list-style: square;
+}
+.indexareakiralama li{
+    margin-bottom: 15px;
+}
+.italic{
+    font-style: italic;
+}
+@media (min-width: 321px) and (max-width: 767px) {
+
+    .kiralama{
+        display: block;  
+        background-color: #f2f2f2;
+        width: 99%;
+        margin: auto;
+        padding-bottom: 30px;
+        
+    }
+    
+    .kiralama img{
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .kiralamabaslik{
+        font-size: 24px;
+    }
+    .text-areakiralama{
+        width: 100%;
+        font-size: 16px;
+        margin: auto;
+    }
+    .text-areakiralama li{
+        font-size: 20px;
+    }
+
+
+    .indexarea{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .indexareakiralama .baslik{
+        font-size: 26px;
+        
+    }
+    
+    .bilgi{
+        overflow: hidden;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    .bilgi .bilgi-baslik{
+        margin-bottom: 50px;
+        font-size: 26px;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .bilgi .bilgi-text{
+        display: block;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .bilgi .bilgi-numara{
+        display: block;
+        margin:0;
+        width: 100%;
+    }
+    .bilgi-button {
+        margin: 0 auto; /* Yatayda otomatik olarak ortala */
+        padding: 15px 50px;
+        margin-right: 45px;
+        margin-top: 10px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,75 @@
+
+/* background-color: rgba(0, 0, 0, .02); */
+/* #d4d4d4 gray */
+.text-areafm{
+    display: block;
+    margin: 150px 500px;
+}
+
+.urun{
+    margin: 0px 300px;
+    padding: 40px;
+    transition: background-color ease 1s;
+    border-bottom: solid 1px #d4d4d4;
+}
+.urun:hover{
+    background-color: rgba(0, 0, 0, .02); 
+}
+.urun-bilgi .baslikfm{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+
+.urun-bilgi li{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #00a1cd;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+.urun-icerik {
+    display: flex;
+    align-items: center; /* Yatayda hizalama */
+}
+.urun-icerik img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.urun-bilgi {
+    margin-left: 20px; /* Resim ile bilgi arasında boşluk */
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+ .text-areafm{
+    margin: auto;
+    width: 90%;
+ }
+ .urun{
+    margin: 0;
+    padding: 40px;
+    transition: background-color ease 1s;
+    border-bottom: solid 1px #d4d4d4;
+}
+.urun-bilgi li{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.urun-icerik img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+.urun-bilgi .baslikfm{
+    font-size: 26px;
+}
+
+
+}
