@@ -13,3 +13,5 @@ Backend Technologies: PHP
 Database: SQL
 
 Other Tools: SwiperJS
+
+Live: verdaburo.com.tr
