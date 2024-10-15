@@ -14,4 +14,4 @@ Database: SQL
 
 Other Tools: SwiperJS
 
-Live: verdaburo.com.tr
+Live: verdaburo.com.tr(I lost the database)
